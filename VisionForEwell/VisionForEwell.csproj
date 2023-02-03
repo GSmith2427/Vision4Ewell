@@ -75,13 +75,25 @@
     <Content Include="App_Data\VisionForEwell_log.ldf">
       <DependentUpon>VisionForEwell.mdf</DependentUpon>
     </Content>
+    <Content Include="Beauty.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\2022-01-13.jpg" />
+    <Content Include="Images\AF1QipNAlFwTs9mXRD5tSWnWpR-GPvT_EN8wQ5i0OdTm=s680-w680-h510 %281%29.png" />
+    <Content Include="Images\springtavern-gallery_1.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="PostOffice.aspx" />
+    <Content Include="SpringTavern.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beauty.aspx.cs">
+      <DependentUpon>Beauty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beauty.aspx.designer.cs">
+      <DependentUpon>Beauty.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -107,6 +119,13 @@
       <DependentUpon>PostOffice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpringTavern.aspx.cs">
+      <DependentUpon>SpringTavern.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpringTavern.aspx.designer.cs">
+      <DependentUpon>SpringTavern.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

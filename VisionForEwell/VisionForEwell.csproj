@@ -71,9 +71,14 @@
     <Content Include="App_Data\V4E_log.ldf">
       <DependentUpon>V4E.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\VisionForEwell.mdf" />
+    <Content Include="App_Data\VisionForEwell_log.ldf">
+      <DependentUpon>VisionForEwell.mdf</DependentUpon>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
+    <Content Include="PostOffice.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +98,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostOffice.aspx.cs">
+      <DependentUpon>PostOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostOffice.aspx.designer.cs">
+      <DependentUpon>PostOffice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

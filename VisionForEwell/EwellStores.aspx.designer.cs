@@ -33,13 +33,13 @@ namespace VisionForEwell
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Button1 control.
+        /// btnBeauty control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnBeauty;
 
         /// <summary>
         /// Image2 control.
@@ -51,30 +51,30 @@ namespace VisionForEwell
         protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
-        /// Button2 control.
+        /// btnPostOffice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnPostOffice;
 
         /// <summary>
-        /// Button3 control.
+        /// btnSpring control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button btnSpring;
 
         /// <summary>
-        /// Button4 control.
+        /// btnPharmacy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.Button btnPharmacy;
     }
 }

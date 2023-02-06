@@ -35,7 +35,11 @@
             <br />
             Address 38 High St, Ewell, Epsom KT17 1RW
             <br />
-            Phone Number 07738020985</div>
+            Phone Number 07738020985<br />
+            <asp:HyperLink ID="lnkBeauty" runat="server" NavigateUrl="https://www.pampertree.co.uk/venue/beaux-beauty-studios">https://www.pampertree.co.uk/venue/beaux-beauty-studios</asp:HyperLink>
+            <br />
+            <asp:Button ID="btnBackB" runat="server" OnClick="btnBackB_Click" Text="Back" />
+        </div>
     </form>
 </body>
 </html>

@@ -28,14 +28,12 @@
             Monday 8:30 am–6:30 pm</p>
         <p>
             Tuesday 8:30 am–6:30 pm</p>
-    </form>
-    <form id="form1" runat="server">
+    
         <p>
             Wednesday 8:30 am–6:30 pm </p>
         <p>
             Thursday 8:30 am–6:30 pm</p>
-    </form>
-    <form id="form1" runat="server">
+  
         <p>
             Friday 8:30 am–6:30 pm
         </p>
@@ -51,6 +49,11 @@
             Address&nbsp; 4-5, Market Parade, High St, Ewell, Epsom KT17 1SL </p>
         <p>
             Phone Number&nbsp; 02083934317</p>
+        <p>
+            <asp:HyperLink ID="lnkPostOffice" runat="server" NavigateUrl="https://www.postoffice.co.uk/branch-finder/0540234/ewell">https://www.postoffice.co.uk/branch-finder/0540234/ewell</asp:HyperLink>
+        </p>
+        <asp:Button ID="btnBackP" runat="server" OnClick="btnBackP_Click" Text="Back" />
+        <br />
     </form>
 </body>
 </html>

@@ -33,21 +33,21 @@ namespace VisionForEwell
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// form1 control.
+        /// lnkPostOffice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.HyperLink lnkPostOffice;
 
         /// <summary>
-        /// form1 control.
+        /// btnBackP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Button btnBackP;
     }
 }

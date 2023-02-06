@@ -22,7 +22,7 @@
             Baux Beauty Salon is located in the heart of Ewell village and offers haircuts, facials,&nbsp; manicures and massages to clients.
         </p>
         <p style="height: 34px; width: 70px">
-            <asp:Button ID="Button1" runat="server" Text="Find out more here" />
+            <asp:Button ID="btnBeauty" runat="server" Text="Find out more here" OnClick="btnBeauty_Click" />
         </p>
         <p style="height: 34px; width: 70px">
             Post Office
@@ -39,7 +39,7 @@
         <p style="height: 58px; width: 483px">
             Ewell Village Post Office Offers mail collection, mail delivery, Stamp and package sales. Post office staff are freindly and ready to help with whatever you need.
         </p>
-        <asp:Button ID="Button2" runat="server" Text="Find out more here" />
+        <asp:Button ID="btnPostOffice" runat="server" Text="Find out more here" OnClick="btnPostOffice_Click" />
         <p>
             Spring Tavern.</p>
         <p>
@@ -47,7 +47,7 @@
         <p style="width: 656px">
             The spring Tavern is a bar and restaurant located in the heart of Ewell village. It has a warm, inviting atmosphere and has both indoor and outdoor seating.
         </p>
-        <asp:Button ID="Button3" runat="server" Text="Find out more here" />
+        <asp:Button ID="btnSpring" runat="server" Text="Find out more here" OnClick="btnSpring_Click" />
         <p>
             Rickys Ewell Spring Pharmacy
         </p>
@@ -56,7 +56,7 @@
         <p style="width: 758px">
             The Pharmacy offers a range of over the counter medicine and some health and beauty products. The staff are freindly and are willing to offer advice or offer assistance with anything you need.
         </p>
-        <asp:Button ID="Button4" runat="server" Text="Find out more here. " />
+        <asp:Button ID="btnPharmacy" runat="server" Text="Find out more here. " OnClick="btnPharmacy_Click" />
     </form>
 </body>
 </html>

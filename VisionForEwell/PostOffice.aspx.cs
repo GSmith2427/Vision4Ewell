@@ -13,5 +13,10 @@ namespace VisionForEwell
 		{
 
 		}
-	}
+
+        protected void btnBackP_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("EwellStores.aspx");
+		}
+    }
 }

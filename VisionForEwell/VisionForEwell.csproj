@@ -77,6 +77,7 @@
     </Content>
     <Content Include="Beauty.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="EwellStores.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\2022-01-13.jpg" />
     <Content Include="Images\AF1QipNAlFwTs9mXRD5tSWnWpR-GPvT_EN8wQ5i0OdTm=s680-w680-h510 %281%29.png" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EwellStores.aspx.cs">
+      <DependentUpon>EwellStores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EwellStores.aspx.designer.cs">
+      <DependentUpon>EwellStores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
